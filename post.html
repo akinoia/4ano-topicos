@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+  <a name="form"></a>
+  <form action="form.html" name="form" method="post"><TABLE cellSpacing=0 cellPadding=0 border=0>
+  <TR>
+    <TD bgColor=#fff8d8> <TABLE cellSpacing=0 cellPadding=2 border=0>
+        <TBODY>
+        <TD bgColor=#fff8d8> <TABLE  cellSpacing=0 cellPadding=2 border=0>
+            <TBODY>
+              <TR>
+                <TD noWrap height=23><FONT
+                color=#000000>Assunto:</FONT></TD>
+                <TD height=23><INPUT maxLength=80 size=30 name=titulo  placeholder="Digite o titulo do assunto.."></TD>
+              </TR>
+              <TR>
+                <TD noWrap align=left width="100%" colSpan=2> <TABLE cellSpacing=0 cellPadding=5 border=0>
+                    <TBODY>
+                      <TR>
+                        <TD vAlign=top align=middle><FONT face=courier>
+                          <TEXTAREA id="ms" rows=10 wrap=VIRTUAL cols=45 placeholder="Digite o assunto.."></TEXTAREA>
+                        </FONT></TD>
+                      </TR>
+                    </TBODY>
+                  
+      </TABLE>
+  </form> 
+  <form action="form.html" method="post">
+     <input type="submit" onclick="stripUnwantedTagsAndAttrs()" value="Postar" name="botao">
+</form>
+</body>
+</html>
